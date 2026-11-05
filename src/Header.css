@@ -1,0 +1,27 @@
+.header {
+  background-color: #f4f4f4;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-task-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.task-counter {
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}

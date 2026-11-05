@@ -1,5 +1,7 @@
 import "./App.css";
 import { Header, TodoItem } from "./Components";
+import "./Header.css";
+import "./Todo.css";
 
 function App() {
   return (
