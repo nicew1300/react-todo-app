@@ -4,9 +4,18 @@ import "./Header.css";
 import "./Todo.css";
 
 function App() {
+  function counter() {
+    const incompletedTasks = document.querySelectorAll(
+      ".todo-not-completed",
+    ).length;
+
+    console.log(incompletedTasks);
+    return incompletedTasks;
+  }
+
   return (
     <div className="container">
-      <Header taskCount={3} />
+      <Header taskCount={counter()} />
       <div className="todo-container">
         <TodoItem
           title="Item 1"
@@ -17,6 +26,11 @@ function App() {
           title="Item 2"
           shortdesc="Another short description"
           completed={true}
+        />
+        <TodoItem
+          title="Item 3"
+          shortdesc="Yoo another short description"
+          completed={false}
         />
         <TodoItem
           title="Item 3"
