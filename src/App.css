@@ -1,11 +1,14 @@
-/* I didn't focus on the styling in this project, but rather to practice react development. */
+/* I didn't focus on the styling in this project, but rather to practice React development. Most of the styling is therefore vibe-coded on the fly so I don't bother much with it. */
 
 .container {
   max-width: 600px;
   margin: 0 auto;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.12);
+  border-radius: 0.75rem;
   padding: 1rem;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .todo-container {
