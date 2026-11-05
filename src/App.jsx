@@ -7,6 +7,7 @@ function App() {
       <Header />
       <div className="todo-container">
         <TodoItem />
+        <TodoItem />
       </div>
     </div>
   );
