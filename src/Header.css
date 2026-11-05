@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* negative margin to stretch the header: */
+  margin: -1rem;
 }
 
 .new-task-btn {
@@ -19,9 +21,11 @@
 }
 
 .task-counter {
-  font-size: 1.1rem;
   background-color: #007bff;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   border-radius: 0.5rem;
+  text-align: center;
+  width: 7rem;
+  box-sizing: border-box;
 }
