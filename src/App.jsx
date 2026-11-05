@@ -4,6 +4,7 @@ import "./Header.css";
 import "./Todo.css";
 
 function App() {
+  // this literally sometimes works sometimes doesnt
   function counter() {
     const incompletedTasks = document.querySelectorAll(
       ".todo-not-completed",
