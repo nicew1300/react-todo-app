@@ -2,7 +2,7 @@ function Header() {
   return (
     <div className="header">
       <div className="new-task-btn">+</div>
-      <div className="task-counter">4</div>
+      <div className="task-counter">Remaining Tasks: 4</div>
     </div>
   );
 }

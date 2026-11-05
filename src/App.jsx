@@ -1,10 +1,10 @@
 import "./App.css";
-import { TodoItem } from "./Components";
+import { Header, TodoItem } from "./Components";
 
 function App() {
   return (
     <div className="container">
-      <div>Task Creation Header</div>
+      <Header />
       <div className="todo-container">
         <TodoItem />
       </div>
