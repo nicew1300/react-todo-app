@@ -7,12 +7,12 @@ function Header() {
   );
 }
 
-function TodoItem() {
+function TodoItem({ title, shortdesc }) {
   return (
     <div className="todo-item">
       <div className="todo-info">
-        <div className="todo-title">Item 1</div>
-        <div className="todo-shortdesc">A short description</div>
+        <div className="todo-title">{title}</div>
+        <div className="todo-shortdesc">{shortdesc}</div>
       </div>
       <div className="todo-btn">Completed</div>
     </div>

@@ -8,8 +8,8 @@ function App() {
     <div className="container">
       <Header />
       <div className="todo-container">
-        <TodoItem />
-        <TodoItem />
+        <TodoItem title="Item 1" shortdesc="A short description" />
+        <TodoItem title="Item 2" shortdesc="Another short description" />
       </div>
     </div>
   );
