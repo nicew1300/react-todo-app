@@ -4,13 +4,13 @@ import "./Header.css";
 import "./Todo.css";
 
 function App() {
-  // this literally sometimes works sometimes doesnt
   function counter() {
+    // the task counter only works when the entire app is rerendered when i change something in the code. after a refresh, it doesnt and displays 0.
+    // i will try and fix it later
     const incompletedTasks = document.querySelectorAll(
       ".todo-not-completed",
     ).length;
 
-    console.log(incompletedTasks);
     return incompletedTasks;
   }
 
