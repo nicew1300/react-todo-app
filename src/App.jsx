@@ -14,6 +14,8 @@ function App() {
     return incompletedTasks;
   }
 
+  // TODO: learn states and change the button when clicked
+
   return (
     <div className="container">
       <Header taskCount={counter()} />
@@ -34,7 +36,7 @@ function App() {
           completed={false}
         />
         <TodoItem
-          title="Item 3"
+          title="Item 4"
           shortdesc="Yoo another short description"
           completed={false}
         />
